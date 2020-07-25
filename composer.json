@@ -1,0 +1,21 @@
+{
+    "name": "akazakbaev/laminas-auth",
+    "description": "",
+    "keywords": [
+        "PHP"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akazakbaev\\LaminasAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laminas": {
+            "module": "Akazakbaev\\LaminasAuth"
+        }
+    }
+}
