@@ -5,7 +5,7 @@
  * Date: 11/20/18
  * Time: 3:37 PM
  */
-namespace Zf\Infocom\Auth\Service;
+namespace Akazakbaev\LaminasAuth\Service;
 
 use Mezzio\Authentication\UserInterface;
 use Laminas\Permissions\Rbac\Rbac;

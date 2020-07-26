@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Zf\Infocom\Auth\Factory\Service;
+namespace Akazakbaev\LaminasAuth\Factory\Service;
 
 use Psr\Container\ContainerInterface;
-use Zf\Infocom\Auth\Service\AuthAdapter;
+use Akazakbaev\LaminasAuth\Service\AuthAdapter;
 use Mezzio\Authentication\UserInterface;
 
 class AuthAdapterFactory

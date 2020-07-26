@@ -5,13 +5,13 @@
  * Date: 11/20/18
  * Time: 10:10 AM
  */
-namespace Zf\Infocom\Auth\Service;
+namespace Akazakbaev\LaminasAuth\Service;
 
 use App\Classes\ItemRepository;
 use App\Entity\ApplicationConsumers;
-use Zf\Infocom\Auth\Entity\AuthConsumers;
-use Zf\Infocom\Auth\Entity\AuthLevels;
-use Zf\Infocom\Auth\Provider\ViewerInterface;
+use Akazakbaev\LaminasAuth\Entity\AuthConsumers;
+use Akazakbaev\LaminasAuth\Entity\AuthLevels;
+use Akazakbaev\LaminasAuth\Provider\ViewerInterface;
 use Department\Entity\DepartmentDepartments;
 use Doctrine\ORM\EntityManager;
 use Employee\Classes\AbstractEmployeeFields;

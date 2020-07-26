@@ -5,7 +5,7 @@
  * Date: 11/20/18
  * Time: 11:24 AM
  */
-namespace Zf\Infocom\Auth\Service;
+namespace Akazakbaev\LaminasAuth\Service;
 
 use Doctrine\ORM\EntityManager;
 use User\Entity\UserLogins;

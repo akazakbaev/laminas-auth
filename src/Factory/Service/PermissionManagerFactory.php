@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Zf\Infocom\Auth\Factory\Service;
+namespace Akazakbaev\LaminasAuth\Factory\Service;
 
-use Zf\Infocom\Auth\Entity\AuthLevels;
-use Zf\Infocom\Auth\Entity\AuthPermissions;
-use Zf\Infocom\Auth\Service\PermissionManager;
+use Akazakbaev\LaminasAuth\Entity\AuthLevels;
+use Akazakbaev\LaminasAuth\Entity\AuthPermissions;
+use Akazakbaev\LaminasAuth\Service\PermissionManager;
 use Doctrine\ORM\EntityManager;
 use Psr\Container\ContainerInterface;
 use Laminas\Permissions\Rbac\Rbac;

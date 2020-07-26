@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Auth;
+namespace Akazakbaev\LaminasAuth;
 
 use Doctrine\Persistence\Mapping\Driver\MappingDriverChain;
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;

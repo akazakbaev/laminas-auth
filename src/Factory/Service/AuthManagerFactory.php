@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Zf\Infocom\Auth\Factory\Service;
+namespace Akazakbaev\LaminasAuth\Factory\Service;
 
 use Psr\Container\ContainerInterface;
-use Zf\Infocom\Auth\Service\AuthManager;
+use Akazakbaev\LaminasAuth\Service\AuthManager;
 use State\Service\StateManager;
 use Zf\Infocom\Core\Service\CacheManager;
 

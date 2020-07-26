@@ -5,7 +5,7 @@
  * Date: 11/20/18
  * Time: 3:37 PM
  */
-namespace Zf\Infocom\Auth\Service;
+namespace Akazakbaev\LaminasAuth\Service;
 
 use App\Entity\ApplicationConsumers;
 use Fig\Http\Message\RequestMethodInterface;
@@ -15,7 +15,7 @@ use Mezzio\Authentication\AuthenticationInterface;
 use Mezzio\Authentication\UserInterface;
 use Psr\Http\Message\ResponseInterface;
 use Firebase\JWT\JWT;
-use Zf\Infocom\Auth\Entity\AuthConsumers;
+use Akazakbaev\LaminasAuth\Entity\AuthConsumers;
 use Zf\Infocom\Core\RestDispatchTrait;
 
 class AuthService implements AuthenticationInterface

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Zf\Infocom\Auth\Factory\Service;
+namespace Akazakbaev\LaminasAuth\Factory\Service;
 
 use Psr\Container\ContainerInterface;
-use Zf\Infocom\Auth\Service\AuthManager;
-use Zf\Infocom\Auth\Service\AuthService;
+use Akazakbaev\LaminasAuth\Service\AuthManager;
+use Akazakbaev\LaminasAuth\Service\AuthService;
 
 class AuthServiceFactory
 {
